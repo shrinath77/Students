@@ -15,6 +15,8 @@ public class DemoApplication {
 
 		Log.info("Application is runnnig");
 
+		System.out.println("Please check logs");
+
 
 	}
 
