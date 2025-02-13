@@ -9,8 +9,11 @@ import java.util.logging.Logger;
 public class DemoApplication {
 
 
+	private static final Logger log = Logger.getLogger(DemoApplication.class.getName());
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
+		log.warning("Please check the exceptions");
 
 
 
